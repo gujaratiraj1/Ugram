@@ -178,169 +178,495 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
 
+
         // =====================================================================
-        // BREEZE BLOCKS — DOUBLE SIDE FINISH (from image folder)
+        // BREEZE BLOCKS -- DOUBLE SIDE FINISH (from CSV data)
         // =====================================================================
+        {
+            id: 'ds-temple',
+            name: 'Temple',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.3 Kg',
+            perBox: 5,
+            description: 'Temple-inspired geometric pattern with double-side finish for elegant architectural screens.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10101.png',
+            colours: [
+                { name: 'Red', code: '10101', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10101.png', weight: '3.3 Kg' },
+                { name: 'White', code: '10102', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10102.png', weight: '3.4 Kg' },
+                { name: 'Grey', code: '10103', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10103.png', weight: '3.2 Kg' },
+                { name: 'Orange', code: '10104', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10104.png', weight: '3.2 Kg' }
+            ]
+        },
         {
             id: 'ds-petal',
             name: 'Petal',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '2.8 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.7 Kg',
             perBox: 5,
-            description: 'Soft, organic curves with premium double-side finish. Both faces are polished for freestanding partitions.',
-            application: ['partition', 'indoor', 'feature-wall'],
-            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10101.png',
-            colours: [
-                { name: 'White', code: '10101', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10101.png', weight: '2.8 Kg' },
-                { name: 'Red', code: '10102', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10102.png', weight: '2.8 Kg' },
-                { name: 'Orange', code: '10103', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10103.png', weight: '2.7 Kg' },
-                { name: 'Grey', code: '10104', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10104.png', weight: '2.6 Kg' }
-            ]
-        },
-        {
-            id: 'ds-seaform',
-            name: 'Seaform',
-            category: 'breeze-block',
-            subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '3.7 Kg',
-            perBox: 5,
-            description: 'Fluid organic waves with double-side finish. Finished on both faces for room dividers and open partitions.',
-            application: ['partition', 'indoor', 'facade'],
+            description: 'Soft petal curves with premium double-side finish. Both faces polished for freestanding partitions.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10111.png',
             colours: [
-                { name: 'White', code: '10111', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10111.png', weight: '3.7 Kg' },
-                { name: 'Red', code: '10112', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10112.png', weight: '3.6 Kg' },
-                { name: 'Orange', code: '10113', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10113.png', weight: '3.7 Kg' },
-                { name: 'Grey', code: '10114', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10114.png', weight: '3.5 Kg' }
+                { name: 'Red', code: '10111', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10111.png', weight: '2.7 Kg' },
+                { name: 'White', code: '10112', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10112.png', weight: '2.7 Kg' },
+                { name: 'Grey', code: '10113', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10113.png', weight: '2.6 Kg' },
+                { name: 'Orange', code: '10114', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10114.png', weight: '2.6 Kg' }
             ]
         },
         {
-            id: 'ds-mountain',
-            name: 'Mountain',
+            id: 'ds-amber',
+            name: 'Amber',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '3.2 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.1 Kg',
             perBox: 5,
-            description: 'Triangular peaks with double-side finish. Both faces identical for freestanding compound walls.',
-            application: ['fence', 'facade', 'outdoor'],
+            description: 'Amber-toned faceted design with double-side finish, ideal for boundary walls and facades.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10121.png',
             colours: [
-                { name: 'White', code: '10121', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10121.png', weight: '3.2 Kg' },
-                { name: 'Red', code: '10122', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10122.png', weight: '3.4 Kg' },
-                { name: 'Orange', code: '10123', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10123.png', weight: '3.1 Kg' },
-                { name: 'Grey', code: '10124', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10124.png', weight: '3.2 Kg' }
+                { name: 'Red', code: '10121', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10121.png', weight: '3.1 Kg' },
+                { name: 'White', code: '10122', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10122.png', weight: '3.1 Kg' },
+                { name: 'Grey', code: '10123', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10123.png', weight: '3 Kg' },
+                { name: 'Orange', code: '10124', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10124.png', weight: '3.1 Kg' }
             ]
         },
         {
-            id: 'ds-stonee',
-            name: 'Stonee',
+            id: 'ds-opel',
+            name: 'Opel',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '2.6 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.9 Kg',
             perBox: 5,
-            description: 'Raw stone texture finished on both sides for boundary walls and outdoor partitions.',
-            application: ['facade', 'outdoor', 'fence'],
+            description: 'Bold angular cuts creating striking shadow patterns on both finished faces.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10131.png',
             colours: [
-                { name: 'White', code: '10131', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10131.png', weight: '2.6 Kg' },
-                { name: 'Red', code: '10132', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10132.png', weight: '3.0 Kg' },
-                { name: 'Orange', code: '10133', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10133.png', weight: '3.0 Kg' },
-                { name: 'Grey', code: '10134', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10134.png', weight: '2.9 Kg' }
+                { name: 'Red', code: '10131', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10131.png', weight: '2.9 Kg' },
+                { name: 'White', code: '10132', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10132.png', weight: '2.9 Kg' },
+                { name: 'Grey', code: '10133', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10133.png', weight: '2.8 Kg' },
+                { name: 'Orange', code: '10134', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10134.png', weight: '2.8 Kg' }
             ]
         },
         {
-            id: 'ds-lotus',
-            name: 'Lotus',
+            id: 'ds-the-x-factor',
+            name: 'The X -factor',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '2.0 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.6 Kg',
             perBox: 5,
-            description: 'Symmetrical lotus with premium double-side finish. Zen-inspired design visible from both sides.',
-            application: ['partition', 'indoor', 'feature-wall'],
+            description: 'Dynamic X-shaped negative space design. A statement block for modern feature walls.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10141.png',
             colours: [
-                { name: 'White', code: '10141', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10141.png', weight: '2.0 Kg' },
-                { name: 'Red', code: '10142', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10142.png', weight: '2.2 Kg' },
-                { name: 'Orange', code: '10143', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10143.png', weight: '2.1 Kg' },
-                { name: 'Grey', code: '10144', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10144.png', weight: '2.0 Kg' }
+                { name: 'Red', code: '10141', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10141.png', weight: '2.6 Kg' },
+                { name: 'White', code: '10142', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10142.png', weight: '2.6 Kg' },
+                { name: 'Grey', code: '10143', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10143.png', weight: '2.5 Kg' },
+                { name: 'Orange', code: '10144', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10144.png', weight: '2.5 Kg' }
             ]
         },
         {
-            id: 'ds-crosstine',
-            name: 'Crosstine',
+            id: 'ds-roman',
+            name: 'Roman',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '2.1 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.3 Kg',
             perBox: 5,
-            description: 'Intersecting lines with double-side finish for freestanding security barriers and compound walls.',
-            application: ['fence', 'outdoor', 'facade'],
+            description: 'Classical Roman arch inspired block with symmetric double-side finish for grand partitions.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10151.png',
             colours: [
-                { name: 'White', code: '10151', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10151.png', weight: '2.1 Kg' },
-                { name: 'Red', code: '10152', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10152.png', weight: '2.4 Kg' },
-                { name: 'Orange', code: '10153', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10153.png', weight: '2.2 Kg' },
-                { name: 'Grey', code: '10154', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10154.png', weight: '2.3 Kg' }
+                { name: 'Red', code: '10151', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10151.png', weight: '3.3 Kg' },
+                { name: 'White', code: '10152', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10152.png', weight: '3.3 Kg' },
+                { name: 'Grey', code: '10153', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10153.png', weight: '3 Kg' },
+                { name: 'Orange', code: '10154', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10154.png', weight: '3.1 Kg' }
             ]
         },
         {
-            id: 'ds-tulip',
-            name: 'Tulip',
+            id: 'ds-5-side-beauity',
+            name: '5 Side Beauity',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '4.0 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '3 Kg',
             perBox: 5,
-            description: 'Elegant tulip design with identical finish on both sides. Premium choice for open-plan room dividers.',
-            application: ['partition', 'indoor', 'feature-wall'],
+            description: 'Five-sided geometric beauty with identical finish on both faces for decorative screens.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10161.png',
             colours: [
-                { name: 'White', code: '10161', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10161.png', weight: '4.0 Kg' },
-                { name: 'Red', code: '10162', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10162.png', weight: '4.2 Kg' },
-                { name: 'Orange', code: '10163', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10163.png', weight: '4.0 Kg' },
-                { name: 'Grey', code: '10164', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10164.png', weight: '4.0 Kg' }
+                { name: 'Red', code: '10161', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10161.png', weight: '3 Kg' },
+                { name: 'White', code: '10162', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10162.png', weight: '3.1 Kg' },
+                { name: 'Grey', code: '10163', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10163.png', weight: '2.9 Kg' },
+                { name: 'Orange', code: '10164', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10164.png', weight: '2.9 Kg' }
             ]
         },
         {
-            id: 'ds-curl',
-            name: 'Curl',
+            id: 'ds-slice-new',
+            name: 'Slice New',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '4.0 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.5 Kg',
             perBox: 5,
-            description: 'Soft curves with double-side finish. Ideal for freestanding garden screens and indoor dividers.',
-            application: ['facade', 'indoor', 'partition'],
+            description: 'Clean diagonal slice pattern creating modern linear art on both exposed faces.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10171.png',
             colours: [
-                { name: 'White', code: '10171', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10171.png', weight: '4.0 Kg' },
-                { name: 'Red', code: '10172', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10172.png', weight: '3.9 Kg' },
-                { name: 'Orange', code: '10173', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10173.png', weight: '4.1 Kg' },
-                { name: 'Grey', code: '10174', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10174.png', weight: '4.0 Kg' }
+                { name: 'Red', code: '10171', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10171.png', weight: '3.5 Kg' },
+                { name: 'White', code: '10172', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10172.png', weight: '3.4 Kg' },
+                { name: 'Grey', code: '10173', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10173.png', weight: '3.3 Kg' },
+                { name: 'Orange', code: '10174', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10174.png', weight: '3.3 Kg' }
             ]
         },
         {
-            id: 'ds-flower',
-            name: 'Flower',
+            id: 'ds-3d-corner-square',
+            name: '3d Corner Square',
             category: 'breeze-block',
             subcategory: 'double-side',
-            size: '200 × 200 × 60 mm',
-            weight: '3.2 Kg',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.5 Kg',
             perBox: 5,
-            description: 'Floral motif finished on both faces for freestanding boundary walls and decorative fences.',
-            application: ['fence', 'partition', 'outdoor'],
+            description: '3D corner square pattern adding bold depth and dimension to both wall faces.',
+            application: ['partition', 'facade', 'outdoor'],
             image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10181.png',
             colours: [
-                { name: 'White', code: '10181', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10181.png', weight: '3.2 Kg' },
-                { name: 'Red', code: '10182', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10182.png', weight: '3.2 Kg' },
-                { name: 'Orange', code: '10183', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10183.png', weight: '3.2 Kg' },
-                { name: 'Grey', code: '10184', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10184.png', weight: '3.1 Kg' }
+                { name: 'Red', code: '10181', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10181.png', weight: '3.5 Kg' },
+                { name: 'White', code: '10182', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10182.png', weight: '3.5 Kg' },
+                { name: 'Grey', code: '10183', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10183.png', weight: '3.3 Kg' },
+                { name: 'Orange', code: '10184', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10184.png', weight: '3.3 Kg' }
+            ]
+        },
+        {
+            id: 'ds-3d-two-lining',
+            name: '3d Two Lining',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3 Kg',
+            perBox: 5,
+            description: 'Dual parallel lines creating rhythmic texture visible from both sides.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10191.png',
+            colours: [
+                { name: 'Red', code: '10191', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10191.png', weight: '3 Kg' },
+                { name: 'White', code: '10192', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10192.png', weight: '3 Kg' },
+                { name: 'Grey', code: '10193', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10193.png', weight: '3 Kg' },
+                { name: 'Orange', code: '10194', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10194.png', weight: '3 Kg' }
+            ]
+        },
+        {
+            id: 'ds-slice',
+            name: 'Slice',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.8 Kg',
+            perBox: 5,
+            description: 'Minimalist sliced design offering privacy with airflow. Clean double-side finish.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10201.png',
+            colours: [
+                { name: 'Red', code: '10201', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10201.png', weight: '2.8 Kg' },
+                { name: 'White', code: '10202', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10202.png', weight: '2.8 Kg' },
+                { name: 'Grey', code: '10203', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10203.png', weight: '2.6 Kg' },
+                { name: 'Orange', code: '10204', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10204.png', weight: '2.7 Kg' }
+            ]
+        },
+        {
+            id: 'ds-post-office',
+            name: 'Post Office',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.6 Kg',
+            perBox: 5,
+            description: 'Envelope-inspired aperture pattern for secure yet ventilated double-side barriers.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10211.png',
+            colours: [
+                { name: 'Red', code: '10211', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10211.png', weight: '3.6 Kg' },
+                { name: 'White', code: '10212', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10212.png', weight: '3.6 Kg' },
+                { name: 'Grey', code: '10213', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10213.png', weight: '3.4 Kg' },
+                { name: 'Orange', code: '10214', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10214.png', weight: '3.4 Kg' }
+            ]
+        },
+        {
+            id: 'ds-lining',
+            name: 'Lining',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '300mm x 100mm x 60mm',
+            weight: '1.8 Kg',
+            perBox: 5,
+            description: 'Elongated linear block with clean horizontal lines, finished on both sides.',
+            application: ['facade', 'partition'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10221.png',
+            colours: [
+                { name: 'Red', code: '10221', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10221.png', weight: '1.8 Kg' },
+                { name: 'White', code: '10222', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10222.png', weight: '1.8 Kg' },
+                { name: 'Grey', code: '10223', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10223.png', weight: '1.8 Kg' },
+                { name: 'Orange', code: '10224', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10224.png', weight: '1.7 Kg' }
+            ]
+        },
+        {
+            id: 'ds-capsule',
+            name: 'Capsule',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '300mm x 100mm x 60mm',
+            weight: '2.3 Kg',
+            perBox: 5,
+            description: 'Rounded capsule-shaped openings for soft, modern ventilation screens.',
+            application: ['facade', 'partition'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10231.png',
+            colours: [
+                { name: 'Red', code: '10231', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10231.png', weight: '2.3 Kg' },
+                { name: 'White', code: '10232', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10232.png', weight: '2.2 Kg' },
+                { name: 'Grey', code: '10233', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10233.png', weight: '2.2 Kg' },
+                { name: 'Orange', code: '10234', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10234.png', weight: '2.2 Kg' }
+            ]
+        },
+        {
+            id: 'ds-waves',
+            name: 'Waves',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '300mm x 100mm x 60mm',
+            weight: '2.7 Kg',
+            perBox: 5,
+            description: 'Flowing wave contours creating organic rhythm on elongated double-side blocks.',
+            application: ['facade', 'partition'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10241.png',
+            colours: [
+                { name: 'Red', code: '10241', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10241.png', weight: '2.7 Kg' },
+                { name: 'White', code: '10242', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10242.png', weight: '2.8 Kg' },
+                { name: 'Grey', code: '10243', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10243.png', weight: '2.6 Kg' },
+                { name: 'Orange', code: '10244', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10244.png', weight: '2.7 Kg' }
+            ]
+        },
+        {
+            id: 'ds-rectangle',
+            name: 'Rectangle',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '300mm x 100mm x 60mm',
+            weight: '2.5 Kg',
+            perBox: 5,
+            description: 'Clean rectangular apertures for minimalist, structured facade patterns.',
+            application: ['facade', 'partition'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10251.png',
+            colours: [
+                { name: 'Red', code: '10251', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10251.png', weight: '2.5 Kg' },
+                { name: 'White', code: '10252', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10252.png', weight: '2.4 Kg' },
+                { name: 'Grey', code: '10253', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10253.png', weight: '2.3 Kg' },
+                { name: 'Orange', code: '10254', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10254.png', weight: '2.4 Kg' }
+            ]
+        },
+        {
+            id: 'ds-w',
+            name: 'W',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.6 Kg',
+            perBox: 5,
+            description: 'Bold W-shaped negative space design creating dramatic shadow interplay.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10261.png',
+            colours: [
+                { name: 'Red', code: '10261', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10261.png', weight: '2.6 Kg' },
+                { name: 'White', code: '10262', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10262.png', weight: '2.6 Kg' },
+                { name: 'Grey', code: '10263', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10263.png', weight: '2.5 Kg' },
+                { name: 'Orange', code: '10264', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10264.png', weight: '2.5 Kg' }
+            ]
+        },
+        {
+            id: 'ds-bw',
+            name: 'Bw',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '250mm x 200mm x 60mm',
+            weight: '4.2 Kg',
+            perBox: 5,
+            description: 'Large-format block-wave pattern for statement architectural installations.',
+            application: ['facade', 'outdoor', 'feature-wall'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10271.png',
+            colours: [
+                { name: 'Red', code: '10271', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10271.png', weight: '4.2 Kg' },
+                { name: 'White', code: '10272', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10272.png', weight: '4.4 Kg' },
+                { name: 'Grey', code: '10273', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10273.png', weight: '4.1 Kg' },
+                { name: 'Orange', code: '10274', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10274.png', weight: '4.1 Kg' },
+                { name: 'Dark Grey', code: '10275', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10275.png', weight: '4.3 Kg' }
+            ]
+        },
+        {
+            id: 'ds-barfi',
+            name: 'Barfi',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '250mm x 200mm x 75mm',
+            weight: '4.2 Kg',
+            perBox: 5,
+            description: 'Diamond grid pattern inspired by traditional motifs, finished on both faces.',
+            application: ['facade', 'outdoor', 'feature-wall'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10281.png',
+            colours: [
+                { name: 'Red', code: '10281', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10281.png', weight: '4.2 Kg' },
+                { name: 'White', code: '10282', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10282.png', weight: '4.3 Kg' },
+                { name: 'Grey', code: '10283', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10283.png', weight: '4.1 Kg' },
+                { name: 'Orange', code: '10284', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10284.png', weight: '4 Kg' }
+            ]
+        },
+        {
+            id: 'ds-3d-single-lining',
+            name: '3d Single Lining',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.9 Kg',
+            perBox: 5,
+            description: 'Single linear groove creating subtle 3D depth on both polished faces.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10291.png',
+            colours: [
+                { name: 'Red', code: '10291', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10291.png', weight: '2.9 Kg' },
+                { name: 'White', code: '10292', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10292.png', weight: '3.1 Kg' },
+                { name: 'Grey', code: '10293', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10293.png', weight: '3 Kg' },
+                { name: 'Orange', code: '10294', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10294.png', weight: '3 Kg' }
+            ]
+        },
+        {
+            id: 'ds-close-mirror',
+            name: 'Close Mirror',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.1 Kg',
+            perBox: 5,
+            description: 'Mirrored closed pattern providing maximum privacy with architectural style.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10301.png',
+            colours: [
+                { name: 'Red', code: '10301', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10301.png', weight: '3.1 Kg' },
+                { name: 'White', code: '10302', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10302.png', weight: '3.3 Kg' },
+                { name: 'Grey', code: '10303', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10303.png', weight: '3..1 Kg' },
+                { name: 'Orange', code: '10304', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10304.png', weight: '3.1 Kg' }
+            ]
+        },
+        {
+            id: 'ds-open-mirror',
+            name: 'Open Mirror',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3 Kg',
+            perBox: 5,
+            description: 'Open mirrored apertures blending transparency with symmetrical design.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10311.png',
+            colours: [
+                { name: 'Red', code: '10311', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10311.png', weight: '3 Kg' },
+                { name: 'White', code: '10312', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10312.png', weight: '3 Kg' },
+                { name: 'Grey', code: '10313', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10313.png', weight: '2.8 Kg' },
+                { name: 'Orange', code: '10314', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10314.png', weight: '2.8 Kg' }
+            ]
+        },
+        {
+            id: 'ds-4-window',
+            name: '4 - Window',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.8 Kg',
+            perBox: 5,
+            description: 'Four-window grid pattern allowing light and air while maintaining structure.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10321.png',
+            colours: [
+                { name: 'Red', code: '10321', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10321.png', weight: '3.8 Kg' },
+                { name: 'White', code: '10322', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10322.png', weight: '4 Kg' },
+                { name: 'Grey', code: '10323', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10323.png', weight: '3.6 Kg' },
+                { name: 'Orange', code: '10324', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10324.png', weight: '3.8 Kg' }
+            ]
+        },
+        {
+            id: 'ds-z',
+            name: 'Z',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '3.2 Kg',
+            perBox: 5,
+            description: 'Dynamic Z-shaped cut creating bold geometric statements on both faces.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10331.png',
+            colours: [
+                { name: 'Red', code: '10331', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10331.png', weight: '3.2 Kg' },
+                { name: 'White', code: '10332', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10332.png', weight: '3 Kg' },
+                { name: 'Grey', code: '10333', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10333.png', weight: '3 Kg' },
+                { name: 'Orange', code: '10334', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10334.png', weight: '3.1 Kg' }
+            ]
+        },
+        {
+            id: 'ds-mangulu',
+            name: 'Mangulu',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '250mm x 200mm x 75mm',
+            weight: '4.3 Kg',
+            perBox: 5,
+            description: 'Large-format angular design for grand architectural installations.',
+            application: ['facade', 'outdoor', 'feature-wall'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10341.png',
+            colours: [
+                { name: 'Red', code: '10341', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10341.png', weight: '4.3 Kg' },
+                { name: 'White', code: '10342', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10342.png', weight: '4.3 Kg' },
+                { name: 'Grey', code: '10343', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10343.png', weight: '4.2 Kg' },
+                { name: 'Orange', code: '10344', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10344.png', weight: '4.1 Kg' }
+            ]
+        },
+        {
+            id: 'ds-swastik',
+            name: 'Swastik',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.5 Kg',
+            perBox: 5,
+            description: 'Traditional swastik motif reinterpreted in modern double-side concrete.',
+            application: ['partition', 'indoor', 'feature-wall'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10351.png',
+            colours: [
+                { name: 'Red', code: '10351', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10351.png', weight: '2.5 Kg' },
+                { name: 'White', code: '10352', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10352.png', weight: '2.5 Kg' },
+                { name: 'Grey', code: '10353', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10353.png', weight: '2.5 Kg' },
+                { name: 'Orange', code: '10354', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10354.png', weight: '2.5 Kg' }
+            ]
+        },
+        {
+            id: 'ds-camp',
+            name: 'Camp',
+            category: 'breeze-block',
+            subcategory: 'double-side',
+            size: '200mm x 200mm x 60mm',
+            weight: '2.4 Kg',
+            perBox: 5,
+            description: 'Tent-like angular openings creating dynamic light patterns through both faces.',
+            application: ['partition', 'facade', 'outdoor'],
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10091.png',
+            colours: [
+                { name: 'Red', code: '10091', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10091.png', weight: '2.4 Kg' },
+                { name: 'White', code: '10092', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10092.png', weight: '2.5 Kg' },
+                { name: 'Grey', code: '10093', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10093.png', weight: '2.3 Kg' },
+                { name: 'Orange', code: '10094', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10094.png', weight: '2.4 Kg' }
             ]
         },
 
@@ -496,6 +822,434 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Grey', code: '12063', image: 'images/UGRAM - 3D TILES/12063.png', weight: '0.75 Kg' },
                 { name: 'Orange', code: '12064', image: 'images/UGRAM - 3D TILES/12064.png', weight: '0.69 Kg' }
             ]
+        },
+
+        // =====================================================================
+        // WALL TILES (from CSV data)
+        // =====================================================================
+        {
+            id: 'wt-verona',
+            name: 'Verona',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '198 × 99 mm',
+            weight: '0.47 Kg',
+            perBox: 20,
+            sqftPerBox: 4.2,
+            pcsPerSqFt: 4.76,
+            description: 'Classic slim rectangular wall tile with a smooth finish, perfect for herringbone or subway patterns.',
+            application: ['indoor', 'facade'],
+            image: 'images/UGRAM - WALL TILES/13001.png',
+            colours: [
+                { name: 'White', code: '13001', image: 'images/UGRAM - WALL TILES/13001.png', weight: '0.47 Kg' },
+                { name: 'Red', code: '13002', image: 'images/UGRAM - WALL TILES/13002.png', weight: '0.50 Kg' },
+                { name: 'Grey', code: '13003', image: 'images/UGRAM - WALL TILES/13003.png', weight: '0.48 Kg' },
+                { name: 'Orange', code: '13004', image: 'images/UGRAM - WALL TILES/13004.png', weight: '0.43 Kg' },
+                { name: 'Brown', code: '13005', image: 'images/UGRAM - WALL TILES/13005.png', weight: '0.50 Kg' }
+            ]
+        },
+        {
+            id: 'wt-natura',
+            name: 'Natura',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '266 × 99 mm',
+            weight: '0.71 Kg',
+            perBox: 20,
+            sqftPerBox: 5.26,
+            pcsPerSqFt: 3.5,
+            description: 'Elongated format providing a sleek, modern horizontal rhythm to large wall surfaces.',
+            application: ['indoor', 'outdoor', 'facade'],
+            image: 'images/UGRAM - WALL TILES/13011.png',
+            colours: [
+                { name: 'White', code: '13011', image: 'images/UGRAM - WALL TILES/13011.png', weight: '0.71 Kg' },
+                { name: 'Red', code: '13012', image: 'images/UGRAM - WALL TILES/13012.png', weight: '0.73 Kg' },
+                { name: 'Grey', code: '13013', image: 'images/UGRAM - WALL TILES/13013.png', weight: '0.70 Kg' }
+            ]
+        },
+        {
+            id: 'wt-florina',
+            name: 'Florina',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '127 × 128 mm',
+            weight: '0.25 Kg',
+            perBox: 20,
+            sqftPerBox: 4.2,
+            pcsPerSqFt: 4.76,
+            description: 'Ornate square tile featuring traditional floral motifs, ideal for accent features and borders.',
+            application: ['indoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13021.png',
+            colours: [
+                { name: 'White', code: '13021', image: 'images/UGRAM - WALL TILES/13021.png', weight: '0.25 Kg' },
+                { name: 'Red', code: '13022', image: 'images/UGRAM - WALL TILES/13022.png', weight: '0.26 Kg' },
+                { name: 'Grey', code: '13023', image: 'images/UGRAM - WALL TILES/13023.png', weight: '0.26 Kg' },
+                { name: 'Orange', code: '13024', image: 'images/UGRAM - WALL TILES/13024.png', weight: '0.24 Kg' },
+                { name: 'Brown', code: '13025', image: 'images/UGRAM - WALL TILES/13025.png', weight: '0.25 Kg' }
+            ]
+        },
+        {
+            id: 'wt-olymia',
+            name: 'Olymia',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '266 × 99 mm',
+            weight: '0.80 Kg',
+            perBox: 20,
+            sqftPerBox: 5.7,
+            pcsPerSqFt: 3.51,
+            description: 'Robust textural tile designed for high-end exterior facades and perimeter architecture.',
+            application: ['facade', 'outdoor'],
+            image: 'images/UGRAM - WALL TILES/13031.png',
+            colours: [
+                { name: 'White', code: '13031', image: 'images/UGRAM - WALL TILES/13031.png', weight: '0.80 Kg' },
+                { name: 'Red', code: '13032', image: 'images/UGRAM - WALL TILES/13032.png', weight: '0.77 Kg' },
+                { name: 'Grey', code: '13033', image: 'images/UGRAM - WALL TILES/13033.png', weight: '0.74 Kg' },
+                { name: 'Orange', code: '13034', image: 'images/UGRAM - WALL TILES/13034.png', weight: '0.74 Kg' }
+            ]
+        },
+        {
+            id: 'wt-rivoli',
+            name: 'Rivoli',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '300 × 147 mm',
+            weight: '1.2 Kg',
+            perBox: 16,
+            sqftPerBox: 7.6,
+            pcsPerSqFt: 2.1,
+            description: 'Premium large-format tile with bold presence. Excellent for expansive commercial feature walls.',
+            application: ['feature-wall', 'facade', 'indoor'],
+            image: 'images/UGRAM - WALL TILES/13041.png',
+            colours: [
+                { name: 'White', code: '13041', image: 'images/UGRAM - WALL TILES/13041.png', weight: '1.2 Kg' },
+                { name: 'Red', code: '13042', image: 'images/UGRAM - WALL TILES/13042.png', weight: '1.1 Kg' },
+                { name: 'Grey', code: '13043', image: 'images/UGRAM - WALL TILES/13043.png', weight: '1.1 Kg' },
+                { name: 'Orange', code: '13044', image: 'images/UGRAM - WALL TILES/13044.png', weight: '1.0 Kg' },
+                { name: 'Brown', code: '13045', image: 'images/UGRAM - WALL TILES/13045.png', weight: '1.2 Kg' }
+            ]
+        },
+        {
+            id: 'wt-sofia',
+            name: 'Sofia',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '221 × 73 mm',
+            weight: '0.35 Kg',
+            perBox: 40,
+            sqftPerBox: 7,
+            pcsPerSqFt: 5.71,
+            description: 'Elegant slender tile offering a delicate touch to interior walls and retail environments.',
+            application: ['indoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13051.png',
+            colours: [
+                { name: 'White', code: '13051', image: 'images/UGRAM - WALL TILES/13051.png', weight: '0.35 Kg' },
+                { name: 'Red', code: '13052', image: 'images/UGRAM - WALL TILES/13052.png', weight: '0.35 Kg' },
+                { name: 'Grey', code: '13053', image: 'images/UGRAM - WALL TILES/13053.png', weight: '0.37 Kg' },
+                { name: 'Orange', code: '13054', image: 'images/UGRAM - WALL TILES/13054.png', weight: '0.34 Kg' },
+                { name: 'Brown', code: '13055', image: 'images/UGRAM - WALL TILES/13055.png', weight: '0.36 Kg' }
+            ]
+        },
+        {
+            id: 'wt-spark',
+            name: 'Spark',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '225 × 75 mm',
+            weight: '0.44 Kg',
+            perBox: 30,
+            sqftPerBox: 5.6,
+            pcsPerSqFt: 5.33,
+            description: 'Textured surface tile with subtle sparkle effect. Creates lively, vibrant wall compositions.',
+            application: ['indoor', 'facade'],
+            image: 'images/UGRAM - WALL TILES/13061.png',
+            colours: [
+                { name: 'White', code: '13061', image: 'images/UGRAM - WALL TILES/13061.png', weight: '0.44 Kg' },
+                { name: 'Red', code: '13062', image: 'images/UGRAM - WALL TILES/13062.png', weight: '0.46 Kg' },
+                { name: 'Grey', code: '13063', image: 'images/UGRAM - WALL TILES/13063.png', weight: '0.47 Kg' },
+                { name: 'Orange', code: '13064', image: 'images/UGRAM - WALL TILES/13064.png', weight: '0.43 Kg' },
+                { name: 'Olive', code: '13065', image: 'images/UGRAM - WALL TILES/13065.png', weight: '0.46 Kg' }
+            ]
+        },
+        {
+            id: 'wt-onix',
+            name: 'Onix',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '221 × 37 mm',
+            weight: '0.69 Kg',
+            perBox: 20,
+            sqftPerBox: 5.69,
+            pcsPerSqFt: 3.51,
+            description: 'Ultra-slim linear tile for sophisticated stacked or running bond patterns on feature walls.',
+            application: ['indoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13071.png',
+            colours: [
+                { name: 'White', code: '13071', image: 'images/UGRAM - WALL TILES/13071.png', weight: '0.69 Kg' },
+                { name: 'Red', code: '13072', image: 'images/UGRAM - WALL TILES/13072.png', weight: '0.67 Kg' },
+                { name: 'Grey', code: '13073', image: 'images/UGRAM - WALL TILES/13073.png', weight: '0.69 Kg' },
+                { name: 'Orange', code: '13074', image: 'images/UGRAM - WALL TILES/13074.png', weight: '0.65 Kg' },
+                { name: 'Brown', code: '13075', image: 'images/UGRAM - WALL TILES/13075.png', weight: '0.67 Kg' }
+            ]
+        },
+        {
+            id: 'wt-diamond',
+            name: 'Diamond',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '200 × 100 mm',
+            weight: '0.43 Kg',
+            perBox: 30,
+            sqftPerBox: 6.46,
+            pcsPerSqFt: 4.65,
+            description: 'Faceted surface mimicking gemstone geometry. Catches ambient light for subtle luminance shifts.',
+            application: ['indoor', 'facade', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13081.png',
+            colours: [
+                { name: 'White', code: '13081', image: 'images/UGRAM - WALL TILES/13081.png', weight: '0.43 Kg' },
+                { name: 'Red', code: '13082', image: 'images/UGRAM - WALL TILES/13082.png', weight: '0.43 Kg' },
+                { name: 'Grey', code: '13083', image: 'images/UGRAM - WALL TILES/13083.png', weight: '0.45 Kg' },
+                { name: 'Orange', code: '13084', image: 'images/UGRAM - WALL TILES/13084.png', weight: '0.42 Kg' },
+                { name: 'Brown', code: '13085', image: 'images/UGRAM - WALL TILES/13085.png', weight: '0.46 Kg' }
+            ]
+        },
+        {
+            id: 'wt-coral',
+            name: 'Coral',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '221 × 73 mm',
+            weight: '0.40 Kg',
+            perBox: 40,
+            sqftPerBox: 7,
+            pcsPerSqFt: 5.71,
+            description: 'Organic coral-reef inspired texture bringing natural underwater formations to interior surfaces.',
+            application: ['indoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13091.png',
+            colours: [
+                { name: 'White', code: '13091', image: 'images/UGRAM - WALL TILES/13091.png', weight: '0.40 Kg' },
+                { name: 'Red', code: '13092', image: 'images/UGRAM - WALL TILES/13092.png', weight: '0.40 Kg' },
+                { name: 'Grey', code: '13093', image: 'images/UGRAM - WALL TILES/13093.png', weight: '0.40 Kg' },
+                { name: 'Brown', code: '13094', image: 'images/UGRAM - WALL TILES/13094.png', weight: '0.40 Kg' },
+                { name: 'Orange', code: '13095', image: 'images/UGRAM - WALL TILES/13095.png', weight: '0.40 Kg' }
+            ]
+        },
+        {
+            id: 'wt-strip',
+            name: 'Strip',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '300 × 75 mm',
+            weight: '0.49 Kg',
+            perBox: 30,
+            sqftPerBox: 7.5,
+            pcsPerSqFt: 4,
+            description: 'Minimal linear tile for clean, contemporary walls. Creates a seamless horizontal visual flow.',
+            application: ['indoor', 'facade'],
+            image: 'images/UGRAM - WALL TILES/13101.png',
+            colours: [
+                { name: 'White', code: '13101', image: 'images/UGRAM - WALL TILES/13101.png', weight: '0.49 Kg' },
+                { name: 'Red', code: '13102', image: 'images/UGRAM - WALL TILES/13102.png', weight: '0.51 Kg' },
+                { name: 'Grey', code: '13103', image: 'images/UGRAM - WALL TILES/13103.png', weight: '0.53 Kg' },
+                { name: 'Orange', code: '13104', image: 'images/UGRAM - WALL TILES/13104.png', weight: '0.52 Kg' },
+                { name: 'Brown', code: '13105', image: 'images/UGRAM - WALL TILES/13105.png', weight: '0.51 Kg' }
+            ]
+        },
+        {
+            id: 'wt-hexa',
+            name: 'Hexa',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: 'Hexagonal',
+            weight: '1.1 Kg',
+            perBox: 14,
+            sqftPerBox: 5.38,
+            pcsPerSqFt: 2.6,
+            description: 'Geometric hexagonal tile creating organic honeycomb patterns. A statement piece for modern interiors.',
+            application: ['indoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13111.png',
+            colours: [
+                { name: 'White', code: '13111', image: 'images/UGRAM - WALL TILES/13111.png', weight: '1.1 Kg' },
+                { name: 'Red', code: '13112', image: 'images/UGRAM - WALL TILES/13112.png', weight: '1.2 Kg' },
+                { name: 'Grey', code: '13113', image: 'images/UGRAM - WALL TILES/13113.png', weight: '1.2 Kg' },
+                { name: 'Orange', code: '13114', image: 'images/UGRAM - WALL TILES/13114.png', weight: '1.2 Kg' },
+                { name: 'Brown', code: '13115', image: 'images/UGRAM - WALL TILES/13115.png', weight: '1.1 Kg' }
+            ]
+        },
+        {
+            id: 'wt-stone',
+            name: 'Stone Wall',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '250 × 125 mm',
+            weight: '1.02 Kg',
+            perBox: 16,
+            sqftPerBox: 5.5,
+            pcsPerSqFt: 2.88,
+            description: 'Rough-hewn natural stone replica providing authentic masonry character to any wall surface.',
+            application: ['facade', 'outdoor', 'feature-wall'],
+            image: 'images/UGRAM - WALL TILES/13121.png',
+            colours: [
+                { name: 'White', code: '13121', image: 'images/UGRAM - WALL TILES/13121.png', weight: '1.02 Kg' },
+                { name: 'Red', code: '13122', image: 'images/UGRAM - WALL TILES/13122.png', weight: '0.94 Kg' },
+                { name: 'Grey', code: '13123', image: 'images/UGRAM - WALL TILES/13123.png', weight: '0.93 Kg' },
+                { name: 'Orange', code: '13124', image: 'images/UGRAM - WALL TILES/13124.png', weight: '0.87 Kg' },
+                { name: 'Brown', code: '13125', image: 'images/UGRAM - WALL TILES/13125.png', weight: '0.93 Kg' }
+            ]
+        },
+        {
+            id: 'wt-rustic',
+            name: 'Rustic',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '215 × 75 mm',
+            weight: '0.32 Kg',
+            perBox: 40,
+            sqftPerBox: 6.9,
+            pcsPerSqFt: 5.78,
+            description: 'Handmade-look tile with earthy, rustic charm. Ideal for farmhouse and Mediterranean aesthetics.',
+            application: ['indoor', 'facade'],
+            image: 'images/UGRAM - WALL TILES/13131.png',
+            colours: [
+                { name: 'White', code: '13131', image: 'images/UGRAM - WALL TILES/13131.png', weight: '0.32 Kg' },
+                { name: 'Red', code: '13132', image: 'images/UGRAM - WALL TILES/13132.png', weight: '0.32 Kg' },
+                { name: 'Grey', code: '13133', image: 'images/UGRAM - WALL TILES/13133.png', weight: '0.34 Kg' },
+                { name: 'Orange', code: '13134', image: 'images/UGRAM - WALL TILES/13134.png', weight: '0.36 Kg' },
+                { name: 'Brown', code: '13135', image: 'images/UGRAM - WALL TILES/13135.png', weight: '0.37 Kg' }
+            ]
+        },
+        {
+            id: 'wt-brick',
+            name: 'Brick',
+            category: 'wall-tile',
+            subcategory: 'wall-tile',
+            size: '480 × 170 mm',
+            weight: '2.7 Kg',
+            perBox: 6,
+            sqftPerBox: 5.3,
+            pcsPerSqFt: 1.13,
+            description: 'Oversized brick-format tile providing a monumental industrial aesthetic for large-scale facades.',
+            application: ['facade', 'outdoor'],
+            image: 'images/UGRAM - WALL TILES/13151.png',
+            colours: [
+                { name: 'White', code: '13151', image: 'images/UGRAM - WALL TILES/13151.png', weight: '2.7 Kg' },
+                { name: 'Red', code: '13152', image: 'images/UGRAM - WALL TILES/13152.png', weight: '2.6 Kg' },
+                { name: 'Grey', code: '13153', image: 'images/UGRAM - WALL TILES/13153.png', weight: '2.6 Kg' },
+                { name: 'Orange', code: '13154', image: 'images/UGRAM - WALL TILES/13154.png', weight: '2.6 Kg' },
+                { name: 'Yellow', code: '13155', image: 'images/UGRAM - WALL TILES/13155.png', weight: '2.7 Kg' },
+                { name: 'Brown', code: '13156', image: 'images/UGRAM - WALL TILES/13156.png', weight: '2.9 Kg' }
+            ]
+        },
+
+        // =====================================================================
+        // RAILING PILLARS (from XLSX data)
+        // =====================================================================
+        {
+            id: 'rp-roman-1',
+            name: 'Roman Pillar I',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '24 in × 95 mm',
+            weight: '7.5 Kg',
+            perBox: 1,
+            description: 'Classical fluted pillar with reinforced 8mm rod (30 in length). Premium choice for elegant balustrades.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14001.png',
+            colours: [
+                { name: 'White', code: '14001', image: 'images/UGRAM RAILING PILLAR/14001.png', weight: '7.5 Kg' }
+            ]
+        },
+        {
+            id: 'rp-roman-2',
+            name: 'Roman Pillar II',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '24 in × 95 mm',
+            weight: '7.7 Kg',
+            perBox: 1,
+            description: 'Enhanced classical profile with reinforced 8mm rod. Ideal for staircase and terrace balustrades.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14011.png',
+            colours: [
+                { name: 'White', code: '14011', image: 'images/UGRAM RAILING PILLAR/14011.png', weight: '7.7 Kg' }
+            ]
+        },
+        {
+            id: 'rp-roman-3',
+            name: 'Roman Pillar III',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '24 in × 95 mm',
+            weight: '7.8 Kg',
+            perBox: 1,
+            description: 'Tapered neoclassical pillar for sophisticated railing systems and terrace borders.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14021.png',
+            colours: [
+                { name: 'White', code: '14021', image: 'images/UGRAM RAILING PILLAR/14021.png', weight: '7.8 Kg' },
+                { name: 'Red', code: '14022', image: 'images/UGRAM RAILING PILLAR/14022.png', weight: '7.9 Kg' }
+            ]
+        },
+        {
+            id: 'rp-roman-4',
+            name: 'Roman Pillar IV',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '24 in × 95 mm',
+            weight: '5.3 Kg',
+            perBox: 1,
+            description: 'Lightweight contemporary pillar combining classic proportions with modern structural efficiency.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14031.png',
+            colours: [
+                { name: 'White', code: '14031', image: 'images/UGRAM RAILING PILLAR/14031.png', weight: '5.3 Kg' }
+            ]
+        },
+        {
+            id: 'rp-copping',
+            name: 'Copping',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '24 in',
+            weight: '7.2 Kg',
+            perBox: 1,
+            description: 'Decorative cap element for railing pillars. Provides a finished, polished top to balustrade systems.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14041.png',
+            colours: [
+                { name: 'White', code: '14041', image: 'images/UGRAM RAILING PILLAR/14041.png', weight: '7.2 Kg' }
+            ]
+        },
+        {
+            id: 'rp-rectangle-lock',
+            name: 'Rectangle Lock',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '230 × 60 × 60 mm',
+            weight: '1.4 Kg',
+            perBox: 1,
+            description: '360-degree interlocking structural component for modern railing stability and alignment.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14051.png',
+            colours: [
+                { name: 'White', code: '14051', image: 'images/UGRAM RAILING PILLAR/14051.png', weight: '1.4 Kg' },
+                { name: 'Red', code: '14052', image: 'images/UGRAM RAILING PILLAR/14052.png', weight: '1.4 Kg' }
+            ]
+        },
+        {
+            id: 'rp-round-lock',
+            name: 'Round Lock',
+            category: 'railing-pillar',
+            subcategory: 'railing-pillar',
+            size: '230 × 60 × 60 mm',
+            weight: '1.3 Kg',
+            perBox: 1,
+            description: '360-degree cylindrical interlocking component for curved railing configurations and smooth transitions.',
+            application: ['railing', 'outdoor'],
+            image: 'images/UGRAM RAILING PILLAR/14061.png',
+            colours: [
+                { name: 'White', code: '14061', image: 'images/UGRAM RAILING PILLAR/14061.png', weight: '1.3 Kg' }
+            ]
         }
     ];
 
@@ -524,7 +1278,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 `<span class="tag">${capitalize(app)}</span>`
             ).join('');
 
-            const categoryLabel = product.category === 'breeze-block' ? 'Breeze Block' : '3D Tile';
+            const categoryLabels = { 'breeze-block': 'Breeze Block', '3d-tile': '3D Tile', 'wall-tile': 'Wall Tile', 'railing-pillar': 'Railing Pillar' };
+            const categoryLabel = categoryLabels[product.category] || 'Product';
 
             // Subcategory badge
             let finishLabel = '';
@@ -532,7 +1287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (product.subcategory === 'double-side') finishLabel = 'Double Side';
 
             // Colour swatches
-            const colourMap = { 'White': '#f5f5f5', 'Red': '#c0392b', 'Orange': '#e67e22', 'Grey': '#95a5a6', 'Dark Grey': '#555', 'Brown': '#8b5e3c', 'Black': '#222', 'Yellow': '#f1c40f' };
+            const colourMap = { 'White': '#f5f5f5', 'Red': '#c0392b', 'Orange': '#e67e22', 'Grey': '#95a5a6', 'Dark Grey': '#555', 'Brown': '#8b5e3c', 'Black': '#222', 'Yellow': '#f1c40f', 'Olive': '#808000' };
             let coloursHtml = '';
             if (product.colours && product.colours.length > 1) {
                 coloursHtml = `<div class="colour-swatches">` +
@@ -801,7 +1556,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (existingSwatches) existingSwatches.remove();
 
         if (product.colours && product.colours.length > 1) {
-            const colourMap = { 'White': '#f5f5f5', 'Red': '#c0392b', 'Orange': '#e67e22', 'Grey': '#95a5a6', 'Dark Grey': '#555', 'Brown': '#8b5e3c', 'Black': '#222', 'Yellow': '#f1c40f' };
+            const colourMap = { 'White': '#f5f5f5', 'Red': '#c0392b', 'Orange': '#e67e22', 'Grey': '#95a5a6', 'Dark Grey': '#555', 'Brown': '#8b5e3c', 'Black': '#222', 'Yellow': '#f1c40f', 'Olive': '#808000' };
             const coloursDiv = document.createElement('div');
             coloursDiv.className = 'modal-colours';
             coloursDiv.innerHTML = '<strong>Available Colours:</strong><div class="modal-colour-dots">' +

@@ -1,0 +1,930 @@
+{
+    "wall_tiles": [
+        {
+            "id": "wa-verona",
+            "name": "VERONA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "198 X 99",
+            "weight": "0.47 Kg",
+            "perBox": "20",
+            "description": "Premium VERONA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13001.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13001",
+                    "image": "images/UGRAM - WALL TILES/13001.png",
+                    "weight": "0.47 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13002",
+                    "image": "images/UGRAM - WALL TILES/13002.png",
+                    "weight": "0.5 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13003",
+                    "image": "images/UGRAM - WALL TILES/13003.png",
+                    "weight": "0.48 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13004",
+                    "image": "images/UGRAM - WALL TILES/13004.png",
+                    "weight": "0.43 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13005",
+                    "image": "images/UGRAM - WALL TILES/13005.png",
+                    "weight": "0.5 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-natura",
+            "name": "NATURA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "266 X 99",
+            "weight": "0.71 Kg",
+            "perBox": "20",
+            "description": "Premium NATURA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13011.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13011",
+                    "image": "images/UGRAM - WALL TILES/13011.png",
+                    "weight": "0.71 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13012",
+                    "image": "images/UGRAM - WALL TILES/13012.png",
+                    "weight": "0.73 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13013",
+                    "image": "images/UGRAM - WALL TILES/13013.png",
+                    "weight": "0.7 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-florina",
+            "name": "FLORINA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "127 X 128",
+            "weight": "0.25 Kg",
+            "perBox": "20",
+            "description": "Premium FLORINA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13021.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13021",
+                    "image": "images/UGRAM - WALL TILES/13021.png",
+                    "weight": "0.25 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13022",
+                    "image": "images/UGRAM - WALL TILES/13022.png",
+                    "weight": "0.26 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13023",
+                    "image": "images/UGRAM - WALL TILES/13023.png",
+                    "weight": "0.26 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13024",
+                    "image": "images/UGRAM - WALL TILES/13024.png",
+                    "weight": "0.24 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13025",
+                    "image": "images/UGRAM - WALL TILES/13025.png",
+                    "weight": "0.25 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-olymia",
+            "name": "OLYMIA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "266 X 99",
+            "weight": "0.8 Kg",
+            "perBox": "20",
+            "description": "Premium OLYMIA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13031.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13031",
+                    "image": "images/UGRAM - WALL TILES/13031.png",
+                    "weight": "0.8 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13033",
+                    "image": "images/UGRAM - WALL TILES/13033.png",
+                    "weight": "0.74 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13034",
+                    "image": "images/UGRAM - WALL TILES/13034.png",
+                    "weight": "0.74 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13035",
+                    "image": "images/UGRAM - WALL TILES/13035.png",
+                    "weight": "0.83 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-rivoli",
+            "name": "RIVOLI",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "300 X 147",
+            "weight": "1.2 Kg",
+            "perBox": "16",
+            "description": "Premium RIVOLI wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13041.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13041",
+                    "image": "images/UGRAM - WALL TILES/13041.png",
+                    "weight": "1.2 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13042",
+                    "image": "images/UGRAM - WALL TILES/13042.png",
+                    "weight": "1.1 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13043",
+                    "image": "images/UGRAM - WALL TILES/13043.png",
+                    "weight": "1.1 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13044",
+                    "image": "images/UGRAM - WALL TILES/13044.png",
+                    "weight": "1 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13045",
+                    "image": "images/UGRAM - WALL TILES/13045.png",
+                    "weight": "1.2 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-sofia",
+            "name": "SOFIA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "221 X 73",
+            "weight": "0.35 Kg",
+            "perBox": "40",
+            "description": "Premium SOFIA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13051.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13051",
+                    "image": "images/UGRAM - WALL TILES/13051.png",
+                    "weight": "0.35 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13052",
+                    "image": "images/UGRAM - WALL TILES/13052.png",
+                    "weight": "0.35 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13053",
+                    "image": "images/UGRAM - WALL TILES/13053.png",
+                    "weight": "0.37 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13054",
+                    "image": "images/UGRAM - WALL TILES/13054.png",
+                    "weight": "0.34 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13055",
+                    "image": "images/UGRAM - WALL TILES/13055.png",
+                    "weight": "0.36 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-spark",
+            "name": "SPARK",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "225 X 75",
+            "weight": "0.44 Kg",
+            "perBox": "30",
+            "description": "Premium SPARK wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13061.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13061",
+                    "image": "images/UGRAM - WALL TILES/13061.png",
+                    "weight": "0.44 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13062",
+                    "image": "images/UGRAM - WALL TILES/13062.png",
+                    "weight": "0.46 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13063",
+                    "image": "images/UGRAM - WALL TILES/13063.png",
+                    "weight": "0.47 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13064",
+                    "image": "images/UGRAM - WALL TILES/13064.png",
+                    "weight": "0.43 Kg"
+                },
+                {
+                    "name": "OLIVE",
+                    "code": "13065",
+                    "image": "images/UGRAM - WALL TILES/13065.png",
+                    "weight": "0.46 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-onix",
+            "name": "ONIX",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "221 X 37",
+            "weight": "0.69 Kg",
+            "perBox": "20",
+            "description": "Premium ONIX wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13071.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13071",
+                    "image": "images/UGRAM - WALL TILES/13071.png",
+                    "weight": "0.69 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13072",
+                    "image": "images/UGRAM - WALL TILES/13072.png",
+                    "weight": "0.67 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13073",
+                    "image": "images/UGRAM - WALL TILES/13073.png",
+                    "weight": "0.69 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13074",
+                    "image": "images/UGRAM - WALL TILES/13074.png",
+                    "weight": "0.65 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13075",
+                    "image": "images/UGRAM - WALL TILES/13075.png",
+                    "weight": "0.67 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-diamond",
+            "name": "DIAMOND",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "200 X 100",
+            "weight": "0.43 Kg",
+            "perBox": "30",
+            "description": "Premium DIAMOND wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13081.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13081",
+                    "image": "images/UGRAM - WALL TILES/13081.png",
+                    "weight": "0.43 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13082",
+                    "image": "images/UGRAM - WALL TILES/13082.png",
+                    "weight": "0.43 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13083",
+                    "image": "images/UGRAM - WALL TILES/13083.png",
+                    "weight": "0.45 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13084",
+                    "image": "images/UGRAM - WALL TILES/13084.png",
+                    "weight": "0.42 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13085",
+                    "image": "images/UGRAM - WALL TILES/13085.png",
+                    "weight": "0.46 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-coral",
+            "name": "CORAL",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "221 X 73",
+            "weight": "0.4 Kg",
+            "perBox": "40",
+            "description": "Premium CORAL wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13091.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13091",
+                    "image": "images/UGRAM - WALL TILES/13091.png",
+                    "weight": "0.4 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13092",
+                    "image": "images/UGRAM - WALL TILES/13092.png",
+                    "weight": "0.4 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13093",
+                    "image": "images/UGRAM - WALL TILES/13093.png",
+                    "weight": "0.4 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13094",
+                    "image": "images/UGRAM - WALL TILES/13094.png",
+                    "weight": "0.4 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-strip",
+            "name": "STRIP",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "300 X 75",
+            "weight": "0.49 Kg",
+            "perBox": "30",
+            "description": "Premium STRIP wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13101.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13101",
+                    "image": "images/UGRAM - WALL TILES/13101.png",
+                    "weight": "0.49 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13102",
+                    "image": "images/UGRAM - WALL TILES/13102.png",
+                    "weight": "0.51 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13103",
+                    "image": "images/UGRAM - WALL TILES/13103.png",
+                    "weight": "0.53 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13104",
+                    "image": "images/UGRAM - WALL TILES/13104.png",
+                    "weight": "0.52 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-hexa",
+            "name": "HEXA",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "-",
+            "weight": "1.1 Kg",
+            "perBox": "14",
+            "description": "Premium HEXA wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13111.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13111",
+                    "image": "images/UGRAM - WALL TILES/13111.png",
+                    "weight": "1.1 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13112",
+                    "image": "images/UGRAM - WALL TILES/13112.png",
+                    "weight": "1.2 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13113",
+                    "image": "images/UGRAM - WALL TILES/13113.png",
+                    "weight": "1.2 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13114",
+                    "image": "images/UGRAM - WALL TILES/13114.png",
+                    "weight": "1.2 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13115",
+                    "image": "images/UGRAM - WALL TILES/13115.png",
+                    "weight": "1.1 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-stone",
+            "name": "STONE",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "250 X 125",
+            "weight": "1.02 Kg",
+            "perBox": "16",
+            "description": "Premium STONE wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13121.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13121",
+                    "image": "images/UGRAM - WALL TILES/13121.png",
+                    "weight": "1.02 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13122",
+                    "image": "images/UGRAM - WALL TILES/13122.png",
+                    "weight": "0.94 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13123",
+                    "image": "images/UGRAM - WALL TILES/13123.png",
+                    "weight": "0.93 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13124",
+                    "image": "images/UGRAM - WALL TILES/13124.png",
+                    "weight": "0.87 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13125",
+                    "image": "images/UGRAM - WALL TILES/13125.png",
+                    "weight": "0.93 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-rustic",
+            "name": "RUSTIC",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "215 X 75",
+            "weight": "0.32 Kg",
+            "perBox": "40",
+            "description": "Premium RUSTIC wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13131.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13131",
+                    "image": "images/UGRAM - WALL TILES/13131.png",
+                    "weight": "0.32 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13132",
+                    "image": "images/UGRAM - WALL TILES/13132.png",
+                    "weight": "0.32 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13133",
+                    "image": "images/UGRAM - WALL TILES/13133.png",
+                    "weight": "0.34 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13134",
+                    "image": "images/UGRAM - WALL TILES/13134.png",
+                    "weight": "0.36 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13135",
+                    "image": "images/UGRAM - WALL TILES/13135.png",
+                    "weight": "0.37 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-emilia-stone",
+            "name": "EMILIA STONE",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "215 X 60",
+            "weight": "0.29 Kg",
+            "perBox": "40",
+            "description": "Premium EMILIA STONE wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13141.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13141",
+                    "image": "images/UGRAM - WALL TILES/13141.png",
+                    "weight": "0.29 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13142",
+                    "image": "images/UGRAM - WALL TILES/13142.png",
+                    "weight": "0.28 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13143",
+                    "image": "images/UGRAM - WALL TILES/13143.png",
+                    "weight": "0.31 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13144",
+                    "image": "images/UGRAM - WALL TILES/13144.png",
+                    "weight": "0.34 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13145",
+                    "image": "images/UGRAM - WALL TILES/13145.png",
+                    "weight": "0.31 Kg"
+                }
+            ]
+        },
+        {
+            "id": "wa-brick-",
+            "name": "BRICK ",
+            "category": "wall-tile",
+            "subcategory": "wall-tile",
+            "size": "480 X 170",
+            "weight": "2.7 Kg",
+            "perBox": "6",
+            "description": "Premium BRICK  wall tile with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM - WALL TILES/13151.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "13151",
+                    "image": "images/UGRAM - WALL TILES/13151.png",
+                    "weight": "2.7 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "13152",
+                    "image": "images/UGRAM - WALL TILES/13152.png",
+                    "weight": "2.6 Kg"
+                },
+                {
+                    "name": "GREY",
+                    "code": "13153",
+                    "image": "images/UGRAM - WALL TILES/13153.png",
+                    "weight": "2.6 Kg"
+                },
+                {
+                    "name": "ORANGE",
+                    "code": "13154",
+                    "image": "images/UGRAM - WALL TILES/13154.png",
+                    "weight": "2.6 Kg"
+                },
+                {
+                    "name": "YELLOW",
+                    "code": "13155",
+                    "image": "images/UGRAM - WALL TILES/13155.png",
+                    "weight": "2.7 Kg"
+                },
+                {
+                    "name": "BROWN",
+                    "code": "13156",
+                    "image": "images/UGRAM - WALL TILES/13156.png",
+                    "weight": "2.9 Kg"
+                }
+            ]
+        }
+    ],
+    "railing_pillars": [
+        {
+            "id": "ra-roman-pillar-1",
+            "name": "ROMAN PILLAR 1",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "24\" X 95 MM",
+            "weight": "7.5 Kg",
+            "perBox": "",
+            "description": "Premium ROMAN PILLAR 1 railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14001.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14001",
+                    "image": "images/UGRAM RAILING PILLAR/14001.png",
+                    "weight": "7.5 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-roman-pillar-2",
+            "name": "ROMAN PILLAR 2",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "24\" X 95 MM",
+            "weight": "7.7 Kg",
+            "perBox": "",
+            "description": "Premium ROMAN PILLAR 2 railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14011.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14011",
+                    "image": "images/UGRAM RAILING PILLAR/14011.png",
+                    "weight": "7.7 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-roman-pillar-3",
+            "name": "ROMAN PILLAR 3",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "24\" X 95 MM",
+            "weight": "7.8 Kg",
+            "perBox": "",
+            "description": "Premium ROMAN PILLAR 3 railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14021.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14021",
+                    "image": "images/UGRAM RAILING PILLAR/14021.png",
+                    "weight": "7.8 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "14022",
+                    "image": "images/UGRAM RAILING PILLAR/14022.png",
+                    "weight": "7.9 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-roman-pillar-4",
+            "name": "ROMAN PILLAR 4",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "24\" X 95 MM",
+            "weight": "5.3 Kg",
+            "perBox": "",
+            "description": "Premium ROMAN PILLAR 4 railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14031.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14031",
+                    "image": "images/UGRAM RAILING PILLAR/14031.png",
+                    "weight": "5.3 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-copping",
+            "name": "COPPING",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "24\"",
+            "weight": "7.2 Kg",
+            "perBox": "",
+            "description": "Premium COPPING railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14041.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14041",
+                    "image": "images/UGRAM RAILING PILLAR/14041.png",
+                    "weight": "7.2 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-rectangle-lock",
+            "name": "RECTANGLE LOCK",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "230 MM X 60MM X 60MM",
+            "weight": "1.4 Kg",
+            "perBox": "",
+            "description": "Premium RECTANGLE LOCK railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14051.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14051",
+                    "image": "images/UGRAM RAILING PILLAR/14051.png",
+                    "weight": "1.4 Kg"
+                },
+                {
+                    "name": "RED",
+                    "code": "14052",
+                    "image": "images/UGRAM RAILING PILLAR/14052.png",
+                    "weight": "1.4 Kg"
+                }
+            ]
+        },
+        {
+            "id": "ra-round-lock",
+            "name": "ROUND LOCK",
+            "category": "railing-pillar",
+            "subcategory": "railing-pillar",
+            "size": "230MM X 60MM X 60MM",
+            "weight": "1.3 Kg",
+            "perBox": "",
+            "description": "Premium ROUND LOCK railing pillar with elegant finish.",
+            "application": [
+                "indoor",
+                "outdoor",
+                "facade"
+            ],
+            "image": "images/UGRAM RAILING PILLAR/14061.png",
+            "colours": [
+                {
+                    "name": "WHITE",
+                    "code": "14061",
+                    "image": "images/UGRAM RAILING PILLAR/14061.png",
+                    "weight": "1.3 Kg"
+                }
+            ]
+        }
+    ]
+}
