@@ -661,12 +661,12 @@ document.addEventListener('DOMContentLoaded', () => {
             perBox: 5,
             description: 'Tent-like angular openings creating dynamic light patterns through both faces.',
             application: ['partition', 'facade', 'outdoor'],
-            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10091.png',
+            image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10361.png',
             colours: [
-                { name: 'Red', code: '10091', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10091.png', weight: '2.4 Kg' },
-                { name: 'White', code: '10092', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10092.png', weight: '2.5 Kg' },
-                { name: 'Grey', code: '10093', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10093.png', weight: '2.3 Kg' },
-                { name: 'Orange', code: '10094', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10094.png', weight: '2.4 Kg' }
+                { name: 'Red', code: '10361', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10361.png', weight: '2.4 Kg' },
+                { name: 'White', code: '10362', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10362.png', weight: '2.5 Kg' },
+                { name: 'Grey', code: '10363', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10363.png', weight: '2.3 Kg' },
+                { name: 'Orange', code: '10364', image: 'images/UGRAM BREEZE BLOCKS DOUBLE  SIDE FINISH/10364.png', weight: '2.4 Kg' }
             ]
         },
 
